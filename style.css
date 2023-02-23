@@ -1,0 +1,820 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.principal{
+margin-top: 10px;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+ 
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.mulherfeliz img{
+    width:100%;
+    height:100%;
+}
+.mulherfeliz{
+   
+    display: flex;
+    height: 100%;
+    height: 900px;
+
+}
+.topo{
+   
+    background-image: url('imagens/scott-webb-gWerBZuKM9c-unsplash.jpg');
+    background-size: cover;
+    gap: 0px;
+    display: flex;
+   
+ 
+    
+}
+.topo h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(203,107,230,1);
+    font-size: 50px;
+    line-height: 59px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+span{
+    color:rgb(238, 238, 41);
+}
+.btn button{
+    margin-top: 40px;
+    border: none;
+    width: 57%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 41);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(73, 15, 81);
+    margin-bottom: 30px;
+    font-weight: 700;
+    animation: pulse 2s ease-in-out infinite;
+
+}
+.btn button a{
+    text-decoration: none;
+    color: rgb(73, 15, 81);
+}
+.btn button:hover{
+ transform:scale(1.1);
+ cursor: pointer;
+ transition: 0.5s ease-in-out;
+}
+@keyframes pulse {
+    0%{
+      transform:scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+  }
+
+.dias img{
+width: 150px;
+height: 150px;
+}
+.dias{
+    margin-bottom: 20px;
+}
+.dias img:hover{
+    transform:scale(1.1);
+    transition: 500ms linear;
+    }
+    
+    
+.topo p{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(203,107,230,1);
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.oq img{
+    margin-top: 0px;
+    margin-left: 0px;
+    width:500px;
+
+    
+
+
+}
+
+
+.oqVcAprende{
+    
+ background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+.oq{
+    margin-top: 60px;
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+    justify-content:space-between;
+ 
+}
+.h1aprende h1{
+
+font-family: 'Poppins', sans-serif;
+    color: rgba(203,107,230,1);
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.h1aprende{
+    text-align:left;
+    margin-bottom:40px ;
+}
+.h1aprende h1 span{
+    color:  rgb(73, 15, 81);
+}
+.imgecoisas{
+    display: flex;
+    justify-content:center;
+    gap: 80px;
+    flex-wrap: wrap;
+   
+   
+   
+
+}
+.imgecoisas img{
+height: 470px;
+border-radius: 27px;
+}
+.imgdascoisas{
+    margin-left: 60px;
+}
+.coisas{
+
+padding: 10px;
+width: 580px;
+  text-align: left;
+   
+}
+
+.coisas li{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(203,107,230,1);
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;   
+    list-style: none;
+}
+.coisas li i{
+    margin-right: 10px;
+}
+.coisas li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+.btnEm button{
+    border: none;
+   width: 90%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgb(73, 15, 81);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 30px;
+    font-weight:800;
+    letter-spacing: 1.25px;
+    transition: transform 0.5s ease-in-out;
+   
+}
+.btnEm button:hover{
+    transform:scale(1.1);
+ 
+    cursor: pointer;
+   
+}
+.btnEm{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Bonus*/
+.Bonus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.Bonus .cards .card{
+    display: flex;
+    max-width: 350px;
+    
+    height:400px;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+
+    -webkit-box-shadow: 0px 0px 33px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 33px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 33px -1px rgba(0,0,0,0.75);
+  
+
+}
+.Bonus .cards{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 40px;
+    padding: 40px;
+    align-content: flex-start;
+}
+.Bonus .cards .card img{
+    width: 200px;
+    height:200px;
+}
+.Bonus .cards .card .img{
+    padding-bottom:10px ;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Bonus .cards .card h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color:  yellow;
+    text-align: center;
+}
+.Bonus .cards .card h2{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(73, 15, 81);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.Bonus .cards .card p{
+    color: rgb(73, 15, 81);
+    letter-spacing: 0.4px;
+    
+}
+.radius{
+    background-color: rgb(73, 15, 81);
+    border-radius: 20px;
+    height: 39px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.titleBonus{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.titleBonus h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(203,107,230,1);
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.titleBonus h1 span{
+    color: rgb(73, 15, 81);;
+}
+
+/*EbookCard*/
+.PaidoEbook{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  
+}
+.cardDoEbook{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  max-width:460px; 
+  
+    
+    height:460px;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    justify-content: center;
+  background-color:  rgb(173, 125, 218);
+    -webkit-box-shadow: 0px 0px 33px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 33px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 33px -1px rgba(0,0,0,0.75);
+     gap: 15px;
+}
+
+.cardDoEbook h1{
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255); 
+    font-weight: 800;
+}
+.cardDoEbook h2{
+  
+    font-size: 22px;
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(73, 15, 81); 
+    font-weight: 800;
+    text-decoration: blink;
+    line-height: 30px;
+
+
+}
+.grifaDoh2 h2 span{
+color: rgb(73, 15, 81);
+border-radius: 2px;
+padding: 0px;
+
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.time .min{
+    border: solid yellow;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+
+}
+.time .min h3{
+   color: white;
+}
+.time .seg h3{
+    color: white;
+ }
+.time .seg{
+    border: solid yellow;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+}
+.precos p{
+    font-size: 16px;
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255); 
+    font-weight: 500;
+}
+.precos h1{
+    font-size: 60px;
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255); 
+    font-weight: 800;
+}
+.precos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.time h1{
+    font-size: 70px;
+}
+.cardDoEbook .btnEbook button{
+    border: none;
+    width: 310px;
+     height:60px;
+     border-radius: 8px;
+     background-color: rgb(73, 15, 81);
+     font-family: 'Poppins', sans-serif;
+     color: white;
+     margin-bottom: 30px;
+     font-weight:800;
+     letter-spacing: 1.25px;
+     transition: transform 0.5s ease-in-out;
+    font-size: 18px;
+    padding:7 px;
+    animation: pulse 2s ease-in-out infinite;
+}
+.cardDoEbook .btnEbook{
+    display: flex;
+    justify-content: center;
+}
+
+
+.imgEbook img{
+width: 470px;
+height: 500px;
+}
+.PaiDaImagemEdoEbook{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap-reverse;
+}
+
+.h1DoEbook h1{
+    font-size: 40px;
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(73, 15, 81); 
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom:10px;
+}
+.h1DoEbook{
+    display: flex;
+    justify-content: center;
+}
+.PaidoEbook{
+  
+    padding: 20px;
+}
+/* Duvidas*/
+
+.duvidas {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding:30px
+
+}
+
+.question {
+    margin-top: 10px;
+}
+
+.question summary {
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(73, 15, 81) ;
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.question p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.question p:last-child {
+    margin-bottom: 0;
+}
+.sessaoduvidas{
+    background-color: rgb(73, 15, 81);
+}
+
+/*Garantia */
+.img-7dias img{
+    width: 400px;
+    height: 400px;
+}
+
+.img-7dias{
+  gap: 30px;
+    display: flex;
+    justify-content: center;    
+   flex-wrap: wrap;
+    align-items: center;
+}
+.dias-text h1{
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(73, 15, 81); 
+    font-weight: 900;
+    margin-top: 40px;
+}
+.dias-text p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: rgb(184, 184, 184);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.dias-text{
+
+    width: 600px;
+   
+}
+
+footer{
+    background-color: rgb(73, 15, 81);
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.footerFinal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+  
+    
+ 
+
+}
+.footerCoisas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  padding: 70px;
+  padding-top: 5px;
+ 
+   
+}
+.footerFinal .footerimg img{
+    width: 150px;
+    height: 150px;
+}
+
+.footerFinal h3{
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(248, 248, 248); 
+    font-weight: 700;
+    
+
+
+}
+.footerFinal p{
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+  
+    font-family: 'Poppins', sans-serif;
+    color: rgb(248, 248, 248); 
+    font-weight: 400;
+
+
+}
+@media (max-width: 500px) {
+    .btn button{
+        margin-top: 40px;
+        border: none;
+        width: 80%;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgb(238, 238, 41);
+        font-family: 'Poppins', sans-serif;
+        color: rgb(73, 15, 81);
+        margin-bottom: 30px;
+        font-weight: 700;
+        animation: pulse 2s ease-in-out infinite;
+    
+    }
+    .video iframe{
+       max-width: 200px;
+    }
+    .topo h1{
+        font-family: 'Poppins', sans-serif;
+        color: rgba(203,107,230,1);
+        font-size: 38px;
+        line-height: 49px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    .topo{
+   
+        background-image: url('imagens/scott-webb-gWerBZuKM9c-unsplash.jpg');
+        background-size: cover;
+        gap: 0px;
+        display: flex;
+        
+        justify-content: center;
+       
+    }
+    .principal{
+        margin-top: 10px;
+        
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+         
+        
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        
+        }
+       
+        .topo p{
+            font-family: 'Poppins', sans-serif;
+            color: rgba(203,107,230,1);
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            margin-bottom: 15px;
+            line-height: 20px;
+            font-weight: 500;
+          
+        }
+       
+        .imgecoisas img{
+            height: 300px;
+            border-radius: 27px;
+            }
+            .oq img{
+                margin-top: 0px;
+                margin-left: 0px;
+                width:300px;
+            }
+            .imgecoisas{
+                display: flex;
+                justify-content:center;
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+            .imgdascoisas{
+                margin-left: 0px;
+            }
+            .h1aprende h1{
+
+                font-family: 'Poppins', sans-serif;
+                    color: rgba(203,107,230,1);
+                    font-size: 32px;
+                    line-height: 40px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                }
+                .h1aprende{
+                    text-align:center;
+                    margin-bottom:40px ;
+                }
+                .titleBonus h1{
+                    font-family: 'Poppins', sans-serif;
+                    color: rgba(203,107,230,1);
+                    font-size: 39px;
+                    letter-spacing: 1px;
+                    line-height: 42px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                }
+                .titleBonus{
+                    margin-top: 90px;
+                    display: flex;
+                    text-align: center;
+                    padding: 5px;
+                   
+                }
+                .h1DoEbook h1{
+                    font-size: 39px;
+                    text-align:center;
+                    font-family: 'Poppins', sans-serif;
+                    color: rgb(73, 15, 81); 
+                    font-weight: 800;
+                    margin-top: 40px;
+                    margin-bottom:10px;
+                }
+                .PaiDaImagemEdoEbook{
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+                    flex-direction: column-reverse;
+                }
+                .imgEbook img{
+                    width: 300px;
+                    height: 300px;
+                    }
+                    .imgEbook{
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .img-7dias img{
+                        margin-top: 50px;
+                        width: 300px;
+                        height: 300px;
+                    }
+                    .dias-text h1{
+                        font-size: 39px;
+                        letter-spacing: 0.5px;
+                        text-align: center;
+                        font-family: 'Poppins', sans-serif;
+                        color: rgb(73, 15, 81); 
+                        font-weight: 900;
+                        margin-top: 40px;
+                    }
+                    .dias-text{
+                        padding: 10px;
+                    }
+                    .img-7dias{
+                        gap: 0px;
+                          display: flex;
+                          justify-content: center;    
+                         flex-wrap: wrap;
+                          align-items: center;
+                      }
+                    
+
+
+
+
+
+
+
+
+
+
+
+  }
