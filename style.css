@@ -245,7 +245,7 @@ width: 580px;
     font-weight:800;
     letter-spacing: 1.25px;
     transition: transform 0.5s ease-in-out;
-   
+    
 }
 .btnEm button:hover{
     transform:scale(1.1);
@@ -525,6 +525,10 @@ height: 500px;
 
 .question {
     margin-top: 10px;
+    
+}
+details p{
+    padding: 20px;
 }
 
 .question summary {
@@ -552,6 +556,9 @@ height: 500px;
 }
 .sessaoduvidas{
     background-color: rgb(73, 15, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Garantia */
@@ -619,6 +626,7 @@ footer{
   gap: 15px;
   padding: 70px;
   padding-top: 5px;
+
  
    
 }
@@ -671,6 +679,13 @@ footer{
 font-size: 30px;
 color: rgb(255, 255, 255);
   }
+  .termos{
+    display: flex;
+   justify-content: center;
+ 
+    gap: 50px;
+  }
+ 
 @media (max-width: 500px) {
     .btn button{
         margin-top: 40px;
